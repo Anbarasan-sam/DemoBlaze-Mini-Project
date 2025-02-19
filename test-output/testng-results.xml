@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-19T10:32:10 IST" name="DemoBlaze Suite" finished-at="2025-02-19T10:35:20 IST" duration-ms="189821">
+    <groups>
+      <group name="Purchase">
+        <method signature="PurchaseTest.testRedirectionToPlaceOrderWindow()[pri:0, instance:test.PurchaseTest@1863d2fe]" name="testRedirectionToPlaceOrderWindow" class="test.PurchaseTest"/>
+        <method signature="PurchaseTest.VerifyThePresenceOfTheUserDetailsSections()[pri:2, instance:test.PurchaseTest@1863d2fe]" name="VerifyThePresenceOfTheUserDetailsSections" class="test.PurchaseTest"/>
+        <method signature="PurchaseTest.testPurchaseByEnteringValidDetails()[pri:3, instance:test.PurchaseTest@1863d2fe]" name="testPurchaseByEnteringValidDetails" class="test.PurchaseTest"/>
+        <method signature="PurchaseTest.verifySuccessfullPurchase()[pri:4, instance:test.PurchaseTest@1863d2fe]" name="verifySuccessfullPurchase" class="test.PurchaseTest"/>
+      </group> <!-- Purchase -->
+      <group name="Logout">
+        <method signature="LogoutTest.testLogoutButtonVisibility()[pri:0, instance:test.LogoutTest@43599640]" name="testLogoutButtonVisibility" class="test.LogoutTest"/>
+        <method signature="LogoutTest.testLogoutRedirectionToHomePage()[pri:0, instance:test.LogoutTest@43599640]" name="testLogoutRedirectionToHomePage" class="test.LogoutTest"/>
+      </group> <!-- Logout -->
+      <group name="Product">
+        <method signature="ProductCategoriesTest.testCategoriesDisplayed()[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" name="testCategoriesDisplayed" class="test.ProductCategoriesTest"/>
+        <method signature="ProductCategoriesTest.testLogoDisplayed()[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" name="testLogoDisplayed" class="test.ProductCategoriesTest"/>
+        <method signature="ProductCategoriesTest.testMenuItemsDisplayed()[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" name="testMenuItemsDisplayed" class="test.ProductCategoriesTest"/>
+        <method signature="ProductDetailsTest.testRedirectionToProductDetailsPage()[pri:1, instance:test.ProductDetailsTest@6b6776cb]" name="testRedirectionToProductDetailsPage" class="test.ProductDetailsTest"/>
+        <method signature="ProductDetailsTest.verifyProductDetailsPage()[pri:2, instance:test.ProductDetailsTest@6b6776cb]" name="verifyProductDetailsPage" class="test.ProductDetailsTest"/>
+        <method signature="ProductDetailsTest.testAddToCart()[pri:3, instance:test.ProductDetailsTest@6b6776cb]" name="testAddToCart" class="test.ProductDetailsTest"/>
+        <method signature="ProductDetailsTest.testCartCount()[pri:4, instance:test.ProductDetailsTest@6b6776cb]" name="testCartCount" class="test.ProductDetailsTest"/>
+      </group> <!-- Product -->
+      <group name="Login">
+        <method signature="LoginTest.testLoginButtonClickable()[pri:0, instance:test.LoginTest@3b79fd76]" name="testLoginButtonClickable" class="test.LoginTest"/>
+        <method signature="LoginTest.testLoginButtonVisibility()[pri:0, instance:test.LoginTest@3b79fd76]" name="testLoginButtonVisibility" class="test.LoginTest"/>
+        <method signature="LoginTest.testLoginWithValidCredentials()[pri:0, instance:test.LoginTest@3b79fd76]" name="testLoginWithValidCredentials" class="test.LoginTest"/>
+      </group> <!-- Login -->
+      <group name="signUp">
+        <method signature="SignUpTest.testSignUpButtonClickable()[pri:0, instance:test.SignUpTest@6f3187b0]" name="testSignUpButtonClickable" class="test.SignUpTest"/>
+        <method signature="SignUpTest.testSignUpButtonModalVisible()[pri:0, instance:test.SignUpTest@6f3187b0]" name="testSignUpButtonModalVisible" class="test.SignUpTest"/>
+        <method signature="SignUpTest.testSignUpButtonVisibility()[pri:0, instance:test.SignUpTest@6f3187b0]" name="testSignUpButtonVisibility" class="test.SignUpTest"/>
+      </group> <!-- signUp -->
+      <group name="Cart">
+        <method signature="CartTest.testTotalPriceCalculationAfterModification()[pri:1, instance:test.CartTest@48c76607]" name="testTotalPriceCalculationAfterModification" class="test.CartTest"/>
+        <method signature="CartTest.testDeleteProductFromCart()[pri:2, instance:test.CartTest@48c76607]" name="testDeleteProductFromCart" class="test.CartTest"/>
+      </group> <!-- Cart -->
+    </groups>
+    <test started-at="2025-02-19T10:32:10 IST" name="SignUp Functionality" finished-at="2025-02-19T10:35:20 IST" duration-ms="189821">
+      <class name="test.ProductDetailsTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:33:48 IST" name="launchBrowser" finished-at="2025-02-19T10:33:51 IST" duration-ms="2665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:33:51 IST" name="setUp" finished-at="2025-02-19T10:33:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRedirectionToProductDetailsPage()[pri:1, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:33:51 IST" name="testRedirectionToProductDetailsPage" finished-at="2025-02-19T10:33:54 IST" duration-ms="3637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedirectionToProductDetailsPage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:33:54 IST" name="close" finished-at="2025-02-19T10:33:54 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:33:54 IST" name="launchBrowser" finished-at="2025-02-19T10:33:58 IST" duration-ms="3631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:33:58 IST" name="setUp" finished-at="2025-02-19T10:33:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductDetailsPage()[pri:2, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:33:58 IST" name="verifyProductDetailsPage" finished-at="2025-02-19T10:34:02 IST" duration-ms="4342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetailsPage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:34:02 IST" name="close" finished-at="2025-02-19T10:34:02 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:34:02 IST" name="launchBrowser" finished-at="2025-02-19T10:34:05 IST" duration-ms="2679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:34:05 IST" name="setUp" finished-at="2025-02-19T10:34:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddToCart()[pri:3, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:34:05 IST" name="testAddToCart" finished-at="2025-02-19T10:34:10 IST" duration-ms="5307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:34:10 IST" name="close" finished-at="2025-02-19T10:34:10 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:34:10 IST" name="launchBrowser" finished-at="2025-02-19T10:34:14 IST" duration-ms="3599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:34:14 IST" name="setUp" finished-at="2025-02-19T10:34:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartCount()[pri:4, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:34:14 IST" name="testCartCount" finished-at="2025-02-19T10:34:24 IST" duration-ms="10287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartCount -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ProductDetailsTest@6b6776cb]" started-at="2025-02-19T10:34:24 IST" name="close" finished-at="2025-02-19T10:34:24 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ProductDetailsTest -->
+      <class name="test.SignUpTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@6f3187b0]" started-at="2025-02-19T10:32:10 IST" name="launchBrowser" finished-at="2025-02-19T10:32:17 IST" duration-ms="6323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SignUpTest@6f3187b0]" started-at="2025-02-19T10:32:17 IST" name="setUp" finished-at="2025-02-19T10:32:17 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUpButtonClickable()[pri:0, instance:test.SignUpTest@6f3187b0]" started-at="2025-02-19T10:32:17 IST" name="testSignUpButtonClickable" finished-at="2025-02-19T10:32:17 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpButtonClickable -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.SignUpTest@6f3187b0]" started-at="2025-02-19T10:32:17 IST" name="close" finished-at="2025-02-19T10:32:17 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@6f3187b0]" started-at="2025-02-19T10:32:17 IST" name="launchBrowser" finished-at="2025-02-19T10:32:20 IST" duration-ms="3305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SignUpTest@6f3187b0]" started-at="2025-02-19T10:32:20 IST" name="setUp" finished-at="2025-02-19T10:32:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUpButtonModalVisible()[pri:0, instance:test.SignUpTest@6f3187b0]" started-at="2025-02-19T10:32:20 IST" name="testSignUpButtonModalVisible" finished-at="2025-02-19T10:32:21 IST" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpButtonModalVisible -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.SignUpTest@6f3187b0]" started-at="2025-02-19T10:32:21 IST" name="close" finished-at="2025-02-19T10:32:21 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@6f3187b0]" started-at="2025-02-19T10:32:21 IST" name="launchBrowser" finished-at="2025-02-19T10:32:24 IST" duration-ms="2547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SignUpTest@6f3187b0]" started-at="2025-02-19T10:32:24 IST" name="setUp" finished-at="2025-02-19T10:32:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUpButtonVisibility()[pri:0, instance:test.SignUpTest@6f3187b0]" started-at="2025-02-19T10:32:24 IST" name="testSignUpButtonVisibility" finished-at="2025-02-19T10:32:24 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpButtonVisibility -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.SignUpTest@6f3187b0]" started-at="2025-02-19T10:32:24 IST" name="close" finished-at="2025-02-19T10:32:24 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.SignUpTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3b79fd76]" started-at="2025-02-19T10:32:24 IST" name="launchBrowser" finished-at="2025-02-19T10:32:27 IST" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@3b79fd76]" started-at="2025-02-19T10:32:27 IST" name="setup" finished-at="2025-02-19T10:32:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginButtonClickable()[pri:0, instance:test.LoginTest@3b79fd76]" started-at="2025-02-19T10:32:27 IST" name="testLoginButtonClickable" finished-at="2025-02-19T10:32:27 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButtonClickable -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.LoginTest@3b79fd76]" started-at="2025-02-19T10:32:27 IST" name="close" finished-at="2025-02-19T10:32:27 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3b79fd76]" started-at="2025-02-19T10:32:27 IST" name="launchBrowser" finished-at="2025-02-19T10:32:30 IST" duration-ms="3272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@3b79fd76]" started-at="2025-02-19T10:32:30 IST" name="setup" finished-at="2025-02-19T10:32:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginButtonVisibility()[pri:0, instance:test.LoginTest@3b79fd76]" started-at="2025-02-19T10:32:30 IST" name="testLoginButtonVisibility" finished-at="2025-02-19T10:32:30 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButtonVisibility -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.LoginTest@3b79fd76]" started-at="2025-02-19T10:32:30 IST" name="close" finished-at="2025-02-19T10:32:31 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3b79fd76]" started-at="2025-02-19T10:32:31 IST" name="launchBrowser" finished-at="2025-02-19T10:32:34 IST" duration-ms="3292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@3b79fd76]" started-at="2025-02-19T10:32:34 IST" name="setup" finished-at="2025-02-19T10:32:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:test.LoginTest@3b79fd76]" started-at="2025-02-19T10:32:34 IST" name="testLoginWithValidCredentials" finished-at="2025-02-19T10:32:38 IST" duration-ms="3802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.LoginTest@3b79fd76]" started-at="2025-02-19T10:32:38 IST" name="close" finished-at="2025-02-19T10:32:38 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.ProductCategoriesTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" started-at="2025-02-19T10:33:36 IST" name="launchBrowser" finished-at="2025-02-19T10:33:40 IST" duration-ms="3354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" started-at="2025-02-19T10:33:40 IST" name="setUp" finished-at="2025-02-19T10:33:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCategoriesDisplayed()[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" started-at="2025-02-19T10:33:40 IST" name="testCategoriesDisplayed" finished-at="2025-02-19T10:33:40 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCategoriesDisplayed -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" started-at="2025-02-19T10:33:40 IST" name="close" finished-at="2025-02-19T10:33:40 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" started-at="2025-02-19T10:33:40 IST" name="launchBrowser" finished-at="2025-02-19T10:33:44 IST" duration-ms="3786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" started-at="2025-02-19T10:33:44 IST" name="setUp" finished-at="2025-02-19T10:33:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogoDisplayed()[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" started-at="2025-02-19T10:33:44 IST" name="testLogoDisplayed" finished-at="2025-02-19T10:33:44 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoDisplayed -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" started-at="2025-02-19T10:33:44 IST" name="close" finished-at="2025-02-19T10:33:44 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" started-at="2025-02-19T10:33:44 IST" name="launchBrowser" finished-at="2025-02-19T10:33:48 IST" duration-ms="3902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testMenuItemsDisplayed()[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" started-at="2025-02-19T10:33:48 IST" name="testMenuItemsDisplayed" finished-at="2025-02-19T10:33:48 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuItemsDisplayed -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" started-at="2025-02-19T10:33:48 IST" name="setUp" finished-at="2025-02-19T10:33:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ProductCategoriesTest@1f81aa00]" started-at="2025-02-19T10:33:48 IST" name="close" finished-at="2025-02-19T10:33:48 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ProductCategoriesTest -->
+      <class name="test.CartTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.CartTest@48c76607]" started-at="2025-02-19T10:32:38 IST" name="launchBrowser" finished-at="2025-02-19T10:32:41 IST" duration-ms="3586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CartTest@48c76607]" started-at="2025-02-19T10:32:41 IST" name="setup" finished-at="2025-02-19T10:32:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTotalPriceCalculationAfterModification()[pri:1, instance:test.CartTest@48c76607]" started-at="2025-02-19T10:32:41 IST" name="testTotalPriceCalculationAfterModification" finished-at="2025-02-19T10:32:59 IST" duration-ms="17281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalPriceCalculationAfterModification -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.CartTest@48c76607]" started-at="2025-02-19T10:32:59 IST" name="close" finished-at="2025-02-19T10:32:59 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.CartTest@48c76607]" started-at="2025-02-19T10:32:59 IST" name="launchBrowser" finished-at="2025-02-19T10:33:03 IST" duration-ms="4024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testDeleteProductFromCart()[pri:2, instance:test.CartTest@48c76607]" started-at="2025-02-19T10:33:03 IST" name="testDeleteProductFromCart" finished-at="2025-02-19T10:33:17 IST" duration-ms="14654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteProductFromCart -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CartTest@48c76607]" started-at="2025-02-19T10:33:03 IST" name="setup" finished-at="2025-02-19T10:33:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.CartTest@48c76607]" started-at="2025-02-19T10:33:17 IST" name="close" finished-at="2025-02-19T10:33:17 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CartTest -->
+      <class name="test.PurchaseTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:34:24 IST" name="launchBrowser" finished-at="2025-02-19T10:34:29 IST" duration-ms="4296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testRedirectionToPlaceOrderWindow()[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:34:29 IST" name="testRedirectionToPlaceOrderWindow" finished-at="2025-02-19T10:34:37 IST" duration-ms="8135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedirectionToPlaceOrderWindow -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:34:29 IST" name="setUp" finished-at="2025-02-19T10:34:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:34:37 IST" name="close" finished-at="2025-02-19T10:34:37 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:34:37 IST" name="launchBrowser" finished-at="2025-02-19T10:34:40 IST" duration-ms="3258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="VerifyThePresenceOfTheUserDetailsSections()[pri:2, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:34:40 IST" name="VerifyThePresenceOfTheUserDetailsSections" finished-at="2025-02-19T10:34:51 IST" duration-ms="10558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyThePresenceOfTheUserDetailsSections -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:34:40 IST" name="setUp" finished-at="2025-02-19T10:34:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:34:51 IST" name="close" finished-at="2025-02-19T10:34:51 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:34:51 IST" name="launchBrowser" finished-at="2025-02-19T10:34:55 IST" duration-ms="4409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:34:55 IST" name="setUp" finished-at="2025-02-19T10:34:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPurchaseByEnteringValidDetails()[pri:3, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:34:55 IST" name="testPurchaseByEnteringValidDetails" finished-at="2025-02-19T10:35:05 IST" duration-ms="9652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPurchaseByEnteringValidDetails -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:35:05 IST" name="close" finished-at="2025-02-19T10:35:05 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:35:05 IST" name="launchBrowser" finished-at="2025-02-19T10:35:09 IST" duration-ms="4430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySuccessfullPurchase()[pri:4, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:35:09 IST" name="verifySuccessfullPurchase" finished-at="2025-02-19T10:35:20 IST" duration-ms="10577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfullPurchase -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:35:09 IST" name="setUp" finished-at="2025-02-19T10:35:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.PurchaseTest@1863d2fe]" started-at="2025-02-19T10:35:20 IST" name="close" finished-at="2025-02-19T10:35:20 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.PurchaseTest -->
+      <class name="test.LogoutTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.LogoutTest@43599640]" started-at="2025-02-19T10:33:17 IST" name="launchBrowser" finished-at="2025-02-19T10:33:22 IST" duration-ms="4208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testLogoutButtonVisibility()[pri:0, instance:test.LogoutTest@43599640]" started-at="2025-02-19T10:33:22 IST" name="testLogoutButtonVisibility" finished-at="2025-02-19T10:33:25 IST" duration-ms="3258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutButtonVisibility -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LogoutTest@43599640]" started-at="2025-02-19T10:33:22 IST" name="setup" finished-at="2025-02-19T10:33:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.LogoutTest@43599640]" started-at="2025-02-19T10:33:25 IST" name="close" finished-at="2025-02-19T10:33:25 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.LogoutTest@43599640]" started-at="2025-02-19T10:33:25 IST" name="launchBrowser" finished-at="2025-02-19T10:33:28 IST" duration-ms="3111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LogoutTest@43599640]" started-at="2025-02-19T10:33:28 IST" name="setup" finished-at="2025-02-19T10:33:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogoutRedirectionToHomePage()[pri:0, instance:test.LogoutTest@43599640]" started-at="2025-02-19T10:33:28 IST" name="testLogoutRedirectionToHomePage" finished-at="2025-02-19T10:33:36 IST" duration-ms="8068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutRedirectionToHomePage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.LogoutTest@43599640]" started-at="2025-02-19T10:33:36 IST" name="close" finished-at="2025-02-19T10:33:36 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.LogoutTest -->
+    </test> <!-- SignUp Functionality -->
+  </suite> <!-- DemoBlaze Suite -->
+</testng-results>

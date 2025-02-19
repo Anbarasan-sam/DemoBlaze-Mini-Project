@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-DemoBlaze_Suite" class="navigator-link">
+              <span class="suite-name border-passed">DemoBlaze Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-DemoBlaze_Suite" class="navigator-link ">
+                    <span>C:\Users\Anbarasan_SAM\eclipse-workspace\miniProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-DemoBlaze_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-DemoBlaze_Suite" class="navigator-link ">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-DemoBlaze_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-DemoBlaze_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-DemoBlaze_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-DemoBlaze_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DemoBlaze_Suite" class="hide-methods passed suite-DemoBlaze_Suite"> (hide)</a> <!-- hide-methods passed suite-DemoBlaze_Suite -->
+                      <a href="#" panel-name="suite-DemoBlaze_Suite" class="show-methods passed suite-DemoBlaze_Suite"> (show)</a> <!-- show-methods passed suite-DemoBlaze_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-DemoBlaze_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.PurchaseTest" class="method navigator-link" hash-for-method="VerifyThePresenceOfTheUserDetailsSections">VerifyThePresenceOfTheUserDetailsSections</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.ProductDetailsTest" class="method navigator-link" hash-for-method="testAddToCart">testAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.ProductDetailsTest" class="method navigator-link" hash-for-method="testCartCount">testCartCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.ProductCategoriesTest" class="method navigator-link" hash-for-method="testCategoriesDisplayed">testCategoriesDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.CartTest" class="method navigator-link" hash-for-method="testDeleteProductFromCart">testDeleteProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="testLoginButtonClickable">testLoginButtonClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="testLoginButtonVisibility">testLoginButtonVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="testLoginWithValidCredentials">testLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.ProductCategoriesTest" class="method navigator-link" hash-for-method="testLogoDisplayed">testLogoDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.LogoutTest" class="method navigator-link" hash-for-method="testLogoutButtonVisibility">testLogoutButtonVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.LogoutTest" class="method navigator-link" hash-for-method="testLogoutRedirectionToHomePage">testLogoutRedirectionToHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.ProductCategoriesTest" class="method navigator-link" hash-for-method="testMenuItemsDisplayed">testMenuItemsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.PurchaseTest" class="method navigator-link" hash-for-method="testPurchaseByEnteringValidDetails">testPurchaseByEnteringValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.PurchaseTest" class="method navigator-link" hash-for-method="testRedirectionToPlaceOrderWindow">testRedirectionToPlaceOrderWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.ProductDetailsTest" class="method navigator-link" hash-for-method="testRedirectionToProductDetailsPage">testRedirectionToProductDetailsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="testSignUpButtonClickable">testSignUpButtonClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="testSignUpButtonModalVisible">testSignUpButtonModalVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="testSignUpButtonVisibility">testSignUpButtonVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.CartTest" class="method navigator-link" hash-for-method="testTotalPriceCalculationAfterModification">testTotalPriceCalculationAfterModification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyProductDetailsPage">verifyProductDetailsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="test.PurchaseTest" class="method navigator-link" hash-for-method="verifySuccessfullPurchase">verifySuccessfullPurchase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DemoBlaze_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DemoBlaze_Suite" class="panel DemoBlaze_Suite">
+          <div class="suite-DemoBlaze_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpButtonClickable">
+                  </a> <!-- testSignUpButtonClickable -->
+                  <span class="method-name">testSignUpButtonClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpButtonModalVisible">
+                  </a> <!-- testSignUpButtonModalVisible -->
+                  <span class="method-name">testSignUpButtonModalVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpButtonVisibility">
+                  </a> <!-- testSignUpButtonVisibility -->
+                  <span class="method-name">testSignUpButtonVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.PurchaseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyThePresenceOfTheUserDetailsSections">
+                  </a> <!-- VerifyThePresenceOfTheUserDetailsSections -->
+                  <span class="method-name">VerifyThePresenceOfTheUserDetailsSections</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPurchaseByEnteringValidDetails">
+                  </a> <!-- testPurchaseByEnteringValidDetails -->
+                  <span class="method-name">testPurchaseByEnteringValidDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRedirectionToPlaceOrderWindow">
+                  </a> <!-- testRedirectionToPlaceOrderWindow -->
+                  <span class="method-name">testRedirectionToPlaceOrderWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySuccessfullPurchase">
+                  </a> <!-- verifySuccessfullPurchase -->
+                  <span class="method-name">verifySuccessfullPurchase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginButtonClickable">
+                  </a> <!-- testLoginButtonClickable -->
+                  <span class="method-name">testLoginButtonClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginButtonVisibility">
+                  </a> <!-- testLoginButtonVisibility -->
+                  <span class="method-name">testLoginButtonVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithValidCredentials">
+                  </a> <!-- testLoginWithValidCredentials -->
+                  <span class="method-name">testLoginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.ProductCategoriesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCategoriesDisplayed">
+                  </a> <!-- testCategoriesDisplayed -->
+                  <span class="method-name">testCategoriesDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogoDisplayed">
+                  </a> <!-- testLogoDisplayed -->
+                  <span class="method-name">testLogoDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMenuItemsDisplayed">
+                  </a> <!-- testMenuItemsDisplayed -->
+                  <span class="method-name">testMenuItemsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogoutButtonVisibility">
+                  </a> <!-- testLogoutButtonVisibility -->
+                  <span class="method-name">testLogoutButtonVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogoutRedirectionToHomePage">
+                  </a> <!-- testLogoutRedirectionToHomePage -->
+                  <span class="method-name">testLogoutRedirectionToHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.ProductDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCart">
+                  </a> <!-- testAddToCart -->
+                  <span class="method-name">testAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCartCount">
+                  </a> <!-- testCartCount -->
+                  <span class="method-name">testCartCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRedirectionToProductDetailsPage">
+                  </a> <!-- testRedirectionToProductDetailsPage -->
+                  <span class="method-name">testRedirectionToProductDetailsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDetailsPage">
+                  </a> <!-- verifyProductDetailsPage -->
+                  <span class="method-name">verifyProductDetailsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteProductFromCart">
+                  </a> <!-- testDeleteProductFromCart -->
+                  <span class="method-name">testDeleteProductFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTotalPriceCalculationAfterModification">
+                  </a> <!-- testTotalPriceCalculationAfterModification -->
+                  <span class="method-name">testTotalPriceCalculationAfterModification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-passed -->
+        </div> <!-- panel DemoBlaze_Suite -->
+        <div panel-name="test-xml-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Anbarasan_SAM\eclipse-workspace\miniProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;DemoBlaze Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.demoblaze.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.ListenerClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SignUp Functionality&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.SignUpTest&quot;/&gt;
+      &lt;class name=&quot;test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;test.CartTest&quot;/&gt;
+      &lt;class name=&quot;test.LogoutTest&quot;/&gt;
+      &lt;class name=&quot;test.ProductCategoriesTest&quot;/&gt;
+      &lt;class name=&quot;test.ProductDetailsTest&quot;/&gt;
+      &lt;class name=&quot;test.PurchaseTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignUp Functionality --&gt;
+&lt;/suite&gt; &lt;!-- DemoBlaze Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DemoBlaze Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SignUp Functionality (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DemoBlaze Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Cart</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDeleteProductFromCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testTotalPriceCalculationAfterModification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginButtonClickable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginButtonVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginWithValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Logout</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogoutButtonVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogoutRedirectionToHomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Product</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCartCount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCategoriesDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogoDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMenuItemsDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRedirectionToProductDetailsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductDetailsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Purchase</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyThePresenceOfTheUserDetailsSections</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testPurchaseByEnteringValidDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRedirectionToPlaceOrderWindow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySuccessfullPurchase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">signUp</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSignUpButtonClickable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSignUpButtonModalVisible</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSignUpButtonVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DemoBlaze Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DemoBlaze_Suite');
+function tableData_DemoBlaze_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testTotalPriceCalculationAfterModification')
+data.setCell(0, 2, 'test.CartTest')
+data.setCell(0, 3, 17281);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testDeleteProductFromCart')
+data.setCell(1, 2, 'test.CartTest')
+data.setCell(1, 3, 14654);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifySuccessfullPurchase')
+data.setCell(2, 2, 'test.PurchaseTest')
+data.setCell(2, 3, 10577);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyThePresenceOfTheUserDetailsSections')
+data.setCell(3, 2, 'test.PurchaseTest')
+data.setCell(3, 3, 10558);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCartCount')
+data.setCell(4, 2, 'test.ProductDetailsTest')
+data.setCell(4, 3, 10287);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testPurchaseByEnteringValidDetails')
+data.setCell(5, 2, 'test.PurchaseTest')
+data.setCell(5, 3, 9652);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testRedirectionToPlaceOrderWindow')
+data.setCell(6, 2, 'test.PurchaseTest')
+data.setCell(6, 3, 8135);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLogoutRedirectionToHomePage')
+data.setCell(7, 2, 'test.LogoutTest')
+data.setCell(7, 3, 8068);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testAddToCart')
+data.setCell(8, 2, 'test.ProductDetailsTest')
+data.setCell(8, 3, 5307);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyProductDetailsPage')
+data.setCell(9, 2, 'test.ProductDetailsTest')
+data.setCell(9, 3, 4342);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLoginWithValidCredentials')
+data.setCell(10, 2, 'test.LoginTest')
+data.setCell(10, 3, 3802);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testRedirectionToProductDetailsPage')
+data.setCell(11, 2, 'test.ProductDetailsTest')
+data.setCell(11, 3, 3637);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLogoutButtonVisibility')
+data.setCell(12, 2, 'test.LogoutTest')
+data.setCell(12, 3, 3258);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSignUpButtonModalVisible')
+data.setCell(13, 2, 'test.SignUpTest')
+data.setCell(13, 3, 822);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCategoriesDisplayed')
+data.setCell(14, 2, 'test.ProductCategoriesTest')
+data.setCell(14, 3, 134);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testMenuItemsDisplayed')
+data.setCell(15, 2, 'test.ProductCategoriesTest')
+data.setCell(15, 3, 124);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testLogoDisplayed')
+data.setCell(16, 2, 'test.ProductCategoriesTest')
+data.setCell(16, 3, 88);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSignUpButtonClickable')
+data.setCell(17, 2, 'test.SignUpTest')
+data.setCell(17, 3, 48);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testLoginButtonVisibility')
+data.setCell(18, 2, 'test.LoginTest')
+data.setCell(18, 3, 32);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSignUpButtonVisibility')
+data.setCell(19, 2, 'test.SignUpTest')
+data.setCell(19, 3, 32);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testLoginButtonClickable')
+data.setCell(20, 2, 'test.LoginTest')
+data.setCell(20, 3, 29);
+window.suiteTableData['DemoBlaze_Suite']= { tableData: data, tableDiv: 'times-div-DemoBlaze_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-DemoBlaze_Suite">
+              </div> <!-- times-div-DemoBlaze_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DemoBlaze Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignUpButtonClickable</span>
+                <span class="method-start">6370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">6421 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">6515 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignUpButtonModalVisible</span>
+                <span class="method-start">9823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">10646 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">10738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignUpButtonVisibility</span>
+                <span class="method-start">13287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">13321 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">13421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginButtonClickable</span>
+                <span class="method-start">16727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">16758 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">16844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginButtonVisibility</span>
+                <span class="method-start">20117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">20150 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">20205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithValidCredentials</span>
+                <span class="method-start">23499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">27302 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">27389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">30975 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTotalPriceCalculationAfterModification</span>
+                <span class="method-start">30979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">48260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">48353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteProductFromCart</span>
+                <span class="method-start">52377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">67031 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">67136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">71344 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogoutButtonVisibility</span>
+                <span class="method-start">71344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">74603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">74696 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">77807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogoutRedirectionToHomePage</span>
+                <span class="method-start">77808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">85877 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ProductCategoriesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">85957 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCategoriesDisplayed</span>
+                <span class="method-start">89312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">89447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">89539 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">93325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogoDisplayed</span>
+                <span class="method-start">93326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">93415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">93505 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">97408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMenuItemsDisplayed</span>
+                <span class="method-start">97408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">97533 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ProductDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">97617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">100282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRedirectionToProductDetailsPage</span>
+                <span class="method-start">100284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">103922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">104022 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">107653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDetailsPage</span>
+                <span class="method-start">107654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">111997 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">112081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">114760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddToCart</span>
+                <span class="method-start">114761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">120069 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">120165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">123764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCartCount</span>
+                <span class="method-start">123765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">134052 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.PurchaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">134138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">138434 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRedirectionToPlaceOrderWindow</span>
+                <span class="method-start">138434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">146570 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">146643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">149901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyThePresenceOfTheUserDetailsSections</span>
+                <span class="method-start">149901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">160475 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">160544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">164953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPurchaseByEnteringValidDetails</span>
+                <span class="method-start">164955 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">174607 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://www.demoblaze.com/)</span>
+                <span class="method-start">174693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">179123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySuccessfullPurchase</span>
+                <span class="method-start">179123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">189700 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
